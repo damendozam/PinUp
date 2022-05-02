@@ -1,0 +1,79 @@
+/*80125517*/
+*
+{
+	box-sizing: border-box;
+	
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+body{
+    background-color: #FCFAED;
+}
+label{
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    text-align:center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #656566;
+    margin-top: 30px;
+}
+.logo{
+    background-repeat: no-repeat;
+	background-image: url(../img/logoYellow.png);
+    width: 100%;
+	height: 248px;
+    background-size: 100% auto;
+}
+
+#femail{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 38px;
+    border: 1px solid #656566;
+    border-radius: 10px;
+    background-color: #FCFAED;
+    font-family: 'Poppins', sans-serif;
+}
+
+#password{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 38px;
+    border: 1px solid #656566;
+    border-radius: 10px;
+    background-color: #FCFAED;
+    font-family: 'Poppins', sans-serif;
+}
+
+#forgot{
+    display: block;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #656566;
+}
+
+#button{
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    width: 67px;
+    height: 67px;
+    background-image: url(../img/logoRose.jpeg);
+    background-size: 100% auto;
+    border:none;
+    background-color: #FCFAED;
+}
