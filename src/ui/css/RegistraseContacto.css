@@ -22,6 +22,18 @@ label{
     margin-top: 30px;
 }
 
+/*BACK*/
+.back{
+    display: block;
+    position: relative;
+}
+.back img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 15%;
+    transform: rotate(180deg);
+}
 /*LOGO*/
 .logo{
     
@@ -48,29 +60,21 @@ label{
     background-color: #FCFAED;
     font-family: 'Poppins', sans-serif;
 }
-
-
-.link{
-    display: block;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15px;
-    text-decoration: none;
-    color: #656566;
+#theTitle{
+    font-size: 25px;
 }
 
 #button{
     display: block;
-    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
-    background-repeat: no-repeat;
-    width: 67px;
-    height: 67px;
-    background-image: url(../img/logoRose.jpeg);
-    background-size: 100% auto;
-    border:none;
-    background-color: #FCFAED;
+    margin-top: 30px;
+    width: 298px;
+    height: 41px;
+    background: #A7F9F7;
+    border-radius: 41px;
+    color: rgba(226, 16, 245, 1);
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    border-color: #A7F9F7;
 }
