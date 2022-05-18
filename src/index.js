@@ -4,15 +4,14 @@ const path = require('path');
 
 //settings
 app.set('port',4000);
-app.set('views',path.join(__dirname,'ui/html'));
+app.set('views',path.join(__dirname,'ui'));
 app.engine('html',require('ejs').renderFile);
 app.set('view engine','ejs');
-
+app.use(express.static(__dirname + '/ui'));
 //middleware
 
 //routs
-app.get('/', function (req, res) {
-    res.render('login.html')
-})
-  
+app.use(require('./routes/index'));
+
+//Listen 
 app.listen(app.get('port'));
