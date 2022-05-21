@@ -9,16 +9,23 @@
     </head>
         <body>
             <div class="logo">
-                <img id="photo" src="../img/foto.jpg">
                 <img id="logo" src="../img/logo.png">
             </div>
             <!-- https://www.javascripttutorial.net/javascript-dom/javascript-form/-->
             <form action="/action_page.php">
-               <label>LISTAS DE ESTUDIANTES</label>
+               <h1 class="tiltes">LISTAS DE ESTUDIANTES</h1>
                <div class="students">
                 <% for(let i=0;i<10;i++){ %>
                     <div class="student">
-
+                        <a>
+                            <span class="imagen">
+                                <img src="../img/foto.jpg" class="photo">
+                            </span>
+                            <span class="text">
+                                <h2 class="data">Nombre1 Nombre2</h2>
+                                <h2 class="data">Apellido1 Apellido2</h2>
+                            </span>
+                        </a>
                     </div>
                 <% } %>
                </div>
