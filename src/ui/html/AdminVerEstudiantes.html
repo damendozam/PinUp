@@ -3,7 +3,7 @@
     <head>
         <title>PinUp</title>
         <meta charset="UTF-8">
-		<link rel="stylesheet" href="/css/AdminInicio.css">
+		<link rel="stylesheet" href="/css/AdminVerEstudiantes.css">
 		<meta name="viewport" content="initial-scale=1.0,width=device-width">		
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
     </head>
@@ -14,11 +14,15 @@
             </div>
             <!-- https://www.javascripttutorial.net/javascript-dom/javascript-form/-->
             <form action="/action_page.php">
-                <label>Nombre1 Nombre2</label>
-                <label>Apellido1 Apellido2</label>
-                <a href="/AdminCrearModificarClases"><input type="button" id="button" value="CLASES"></a>
-                <a href="/AdminVerEstudiantes"><input type="button" id="button" value="PRACTICANTES"></a>
-                <a href="/AdminVerProfesores"><input type="button" id="button" value="INSTRUCTORES"></a>
+               <label>LISTAS DE ESTUDIANTES</label>
+               <div class="students">
+                <% for(let i=0;i<10;i++){ %>
+                    <div class="student">
+
+                    </div>
+                <% } %>
+               </div>
+               <a href="/AdminVerProfesores"><input type="button" id="button" value="INICIO"></a>
             </form>            
         </body>
 </html>

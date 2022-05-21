@@ -3,7 +3,7 @@ const router = express.Router();
 
 router.get('/', function (req, res) {
     //res.render('html/login.html')
-    res.render('html/AdminInicio.html')
+    res.render('html/AdminVerEstudiantes.html')
 })
 router.get('/RegistraseNombre', function (req, res) {
     res.render('html/RegistraseNombre.html')
