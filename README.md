@@ -15,4 +15,4 @@ https://www.youtube.com/watch?v=yNxZYN1ja4Y&t=241s&ab_channel=AndresLobaton
 https://pin-up-app.herokuapp.com/
 
 ## Actual
-AdminCrearModificarClases
+AdminVerEstudiante
