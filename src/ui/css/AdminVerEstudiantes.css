@@ -133,10 +133,3 @@ span h2{
     font-weight: 400;
     font-size: 18px;
 }
-.students::-webkit-scrollbar-track {
-    background: orange;        /* color of the tracking area */
-}
-  
-.contenedor::-webkit-scrollbar:vertical {
-    width:10px;
-}

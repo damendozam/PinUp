@@ -22,6 +22,19 @@ label{
     margin-top: 20px;
 }
 
+/*BACK*/
+.back{
+    display: block;
+    position: relative;
+}
+.back img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 15%;
+    transform: rotate(180deg);
+}
+
 /*LOGO*/
 .logo{
 	width: 700px;
@@ -87,4 +100,68 @@ img#logo{
     font-family: 'Poppins', sans-serif;
     font-size: 17px;
     border-color: #FCFAED;
+}
+div.classes {
+    overflow-y: scroll;
+    height: 200px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    scrollbar-width: thin;
+}
+div.class{
+    width: 305px;
+    height: 120px;
+    background-color: #FCFAED;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+img.photo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 72px;
+    height: 72px;
+    border-radius: 72px;
+    z-index: 1;
+}
+
+span{
+    float: left;
+    margin-left: 20px;
+    color: #2D042E;
+}
+
+span h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+span h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+div.daies{
+    overflow-x: scroll;
+    height: 150px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+span.day{
+    float:left;
+    width: 100px;
+    height: 100px;
+    font-family: 'Poppins';
+    font-style: normal;
 }

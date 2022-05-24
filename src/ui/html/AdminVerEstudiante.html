@@ -3,11 +3,14 @@
     <head>
         <title>PinUp</title>
         <meta charset="UTF-8">
-		<link rel="stylesheet" href="/css/AdminInicio.css">
+		<link rel="stylesheet" href="/css/AdminVerEstudiante.css">
 		<meta name="viewport" content="initial-scale=1.0,width=device-width">		
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
     </head>
         <body>
+            <div class="back">
+                <a href="/"><img src="../img/flecha2.png"></a>
+            </div>
             <div class="logo">
                 <img id="photo" src="../img/foto.jpg">
                 <img id="logo" src="../img/logo.png">
@@ -16,9 +19,22 @@
             <form action="/action_page.php">
                 <label>Nombre1 Nombre2</label>
                 <label>Apellido1 Apellido2</label>
-                <a href="/AdminCrearModificarClases"><input type="button" id="button" value="CLASES"></a>
-                <a href="/AdminVerEstudiantes"><input type="button" id="button" value="PRACTICANTES"></a>
-                <a href="/AdminVerProfesores"><input type="button" id="button" value="INSTRUCTORES"></a>
+                <div class="classes">
+                    <% for(let i=0;i<10;i++){ %>
+                        <div class="class">
+                            <a>
+                                <span class="imagen">
+                                    <img src="../img/foto.jpg" class="photo">
+                                </span>
+                                <span class="text">
+                                    <h2 class="data">Nombre de la clase</h2>
+                                    <h3 class="data">Nombre del profesor</h3>
+                                </span>
+                            </a>
+                        </div>
+                    <% } %>
+                </div>
+                <a href="/AdminVerProfesores"><input type="button" id="button" value="AGREGAR CLASE"></a>
             </form>            
         </body>
 </html>

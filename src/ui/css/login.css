@@ -61,7 +61,7 @@ label{
     color: #656566;
 }
 
-#button{
+.button{
     display: block;
     margin-top: 30px;
     margin-left: auto;
