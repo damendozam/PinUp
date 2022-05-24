@@ -89,7 +89,7 @@ h1{
 /*SCROLL*/
 div.students {
     overflow-y: scroll;
-    height: 500px;
+    height: 200px;
     width: auto;
     margin-left: auto;
     margin-right: auto;
