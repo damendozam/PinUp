@@ -15,13 +15,15 @@
                 <img src="../img/logoYellow.png">
             </div>
             <!-- https://www.javascripttutorial.net/javascript-dom/javascript-form/-->
-            <form action="/action_page.php">
+            <form id="form" method="POST" action="/RegistraseTipo">
                 <label for="title" id="theTitle">¿Cómo te contactamos?</label>
                 <label for="email" >Correo electrónico</label>
                 <input type="text" id="email" name="email" class="inputText" >
+                <label for="password" >Contraseña</label>
+                <input type="password" id="password" name="password" class="inputText" >
                 <label for="cel" >Número de celular</label>
                 <input type="text" id="cel" name="cel" class="inputText" >
-                <a href="/RegistraseTipo"><input type="button" id="button" value="SIGUIENTE"></a>
+                <input type="submit" id="button" value="SIGUIENTE">
             </form>            
         </body>
 </html>

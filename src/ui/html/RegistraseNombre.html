@@ -15,7 +15,7 @@
                 <img src="../img/logoYellow.png">
             </div>
             <!-- https://www.javascripttutorial.net/javascript-dom/javascript-form/-->
-            <form action="/action_page.php">
+            <form id="form" method="POST" action="/RegistraseContacto">
                 <label for="title" id="theTitle">¿Quién eres?</label>
                 <label for="name" >Nombres</label>
                 <input type="text" id="name" name="name" class="inputText" >
@@ -24,11 +24,11 @@
                 <label for="id" >Cédula</label>
                 <input type="text" id="id" name="id" class="inputText" >
                 <select name="proname" id="proname" class="proname">
-                    <option value="one">Ella</option>
-                    <option value="two">Elle</option>
-                    <option value="three">Él</option>
-                </select>                
-                <a href="/RegistraseContacto"><input type="button" id="button" value="SIGUIENTE"></a>
+                    <option value="she">Ella</option>
+                    <option value="they">Elle</option>
+                    <option value="he">Él</option>
+                </select>              
+                <input type="submit" id="button" value="SIGUIENTE">
             </form>            
         </body>
 </html>

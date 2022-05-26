@@ -12,8 +12,20 @@ router.get('/RegistraseNombre', function (req, res) {
 router.get('/RegistraseContacto', function (req, res) {
     res.render('html/RegistraseContacto.html')
 })
+router.post('/RegistraseContacto', function (req, res) {
+    console.log(req.body)
+    res.render('html/RegistraseContacto.html')
+})
 router.get('/RegistraseTipo', function (req, res) {
     res.render('html/RegistraseTipo.html')
+})
+router.post('/RegistraseTipo', function (req, res) {
+    console.log(req.body)
+    res.render('html/RegistraseTipo.html')
+})
+router.post('/Registrase', function (req, res) {
+    console.log(req.body)
+    res.render('html/login.html')
 })
 router.get('/AdminCrearModificarClases', function (req, res) {
     res.render('html/AdminCrearModificarClases.html')
