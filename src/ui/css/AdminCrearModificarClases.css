@@ -8,7 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 
 body{
-    background-color: #FCFAED;
+    background-color: #2D042E;
 }
 label{
     display: block;
@@ -61,16 +61,19 @@ label{
     color: #656566;
 }
 
-.button{
+#button{
     display: block;
-    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
-    background-repeat: no-repeat;
-    width: 67px;
-    height: 67px;
-    background-image: url(../img/logoRose.jpeg);
-    background-size: 100% auto;
-    border:none;
-    background-color: #FCFAED;
+    margin-top: 30px;
+    width: 250px;
+    height: 51px;
+    left: 54px;
+    top: 376px;
+    background: #FCFAED;
+    border-radius: 51px;
+    color: #2D042E;;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    border-color: #FCFAED;
 }

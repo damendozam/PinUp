@@ -9,9 +9,10 @@ app.set('views',path.join(__dirname,'ui'));
 app.engine('html',require('ejs').renderFile);
 app.set('view engine','ejs');
 app.use(express.static(__dirname + '/ui'));
+app.use(express.json());
 //middleware
 app.use(morgan("dev"));
-
+app.use(express.urlencoded({ extended: false }));
 //routs
 app.use(require('./routes/index'));
 

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PinUp</title>
+        <meta charset="UTF-8">
+		<link rel="stylesheet" href="/css/AdminVerEstudiantes.css">
+		<meta name="viewport" content="initial-scale=1.0,width=device-width">		
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+    </head>
+        <body>
+            <div class="back">
+                <a href="/"><img src="../img/flecha2.png"></a>
+            </div>
+            <div class="logo">
+                <img id="logo" src="../img/logo.png">
+            </div>
+            <!-- https://www.javascripttutorial.net/javascript-dom/javascript-form/-->
+            
+            <form action="/action_page.php">
+               <h1 class="tiltes">LISTAS DE ESTUDIANTES</h1>
+               <div class="students">
+                <% for(let i=0;i<10;i++){ %>
+                    <div class="student">
+                        <a>
+                            <span class="imagen">
+                                <img src="../img/foto.jpg" class="photo">
+                            </span>
+                            <span class="text">
+                                <h2 class="data">Nombre1 Nombre2</h2>
+                                <h2 class="data">Apellido1 Apellido2</h2>
+                            </span>
+                        </a>
+                    </div>
+                <% } %>
+               </div>
+               <a href="/AdminVerProfesores"><input type="button" id="button" value="INICIO"></a>
+            </form>            
+        </body>
+</html>

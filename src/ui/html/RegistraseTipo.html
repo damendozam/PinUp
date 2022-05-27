@@ -15,16 +15,16 @@
                 <img src="../img/logoYellow.png">
             </div>
             <!-- https://www.javascripttutorial.net/javascript-dom/javascript-form/-->
-            <form action="/action_page.php">
+            <form id="form" method="POST" action="/Registrase">
                 <div class="select">
                     <input type="radio" id="adm" name="typeSelect" value="adm" class="typeLabel">
                     <label for="adm">Administrativ@</label><br>
                     <input type="radio" id="inst" name="typeSelect" value="inst" class="typeLabel">
                     <label for="inst">Instructor@</label><br>
-                    <input type="radio" id="pract" name="typeSelect" value="inst" class="typeLabel">               
+                    <input type="radio" id="pract" name="typeSelect" value="pract" class="typeLabel">               
                     <label for="pract">Practicante</label><br>
                 </div>
-                <a href="/"><input type="button" id="button" value="REGISTRAR"></a>
+                <input type="submit" id="button" value="REGISTRAR">
             </form>            
         </body>
 </html>
